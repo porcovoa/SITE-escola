@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+p {
+    font-size: 12pt;
+}
+
+/* Cabeçalho */
+
+header {
+    background: rgb(10, 160, 219);
+    color: white;
+    width: 100%;
+    height: 5em;
+    padding-inline: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.alignRow {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Primeiros Textos */
+
+.sct1>div {
+    background: rgb(10, 133, 204);
+    color: white;
+    width: 50%;
+    height: auto;
+    padding: 2em;
+}
+
+#imgRF {
+    width: 50%;
+    height: auto;
+}
+
+.social {
+    width: auto;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-block: 1em;
+}
+
+.social>a {
+    display: flex;
+    width: 3em;
+    height: 3em;
+    margin: 0.5em;
+    transform: scale(1);
+    transition: all 100ms;
+}
+
+.social>a:hover {
+    transform: scale(1.2);
+    transition: all 100ms;
+}
+
+/* SESSÃO 2 */
+.sct2 {
+    padding: 2em;
+    background: rgb(206, 71, 105);
+    color: white;
+}
+
+.sct2>.social{
+    margin-bottom: 0px;
+}
+
+.sct2>.social>a {
+    width: 2em;
+    height: 2em;
+}
